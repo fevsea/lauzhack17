@@ -2,3 +2,5 @@ django
 djangorestframework
 beautifulsoup4
 requests
+coreapi
+django-filter
