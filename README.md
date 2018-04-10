@@ -5,16 +5,19 @@ This project has two parts witch correspond to frontend and backend. Both parts 
 
 Basically is an android app that consumes a REST API to show a list with all the missions of ESA (European Space Agency).
 
+## Code location
+Code can be found in `frontend` and `backend` branches.
 
 ## What technologies do it uses
 At backend: Python, Django, DjangoRestFramework, BeautifulSoup, SQLite
 At frontend Java, Android, retrofit
 
 ## How to run it
-The frontent can be run in a local server using ```python3 manage.py runserver 0.0.0.0:8000```
+
+The backend can be run in a local server using ```python3 manage.py runserver 0.0.0.0:8000```
 In order to generate the database the following commands must bne executed:
 
-- ``` python3 manage.py migrate```
+- ``` python manage.py migrate```
 
 - ``` python rest/scraper.py```
 
